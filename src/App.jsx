@@ -6,6 +6,7 @@ import Flex from './comp/Flex'
 import Image from './comp/Image'
 import ImageBanner from './assets/banner1.png'
 import Navber from './Layout/Navber'
+import Banner from './Layout/Banner'
 
 const App = () => {
  
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <>
     <Navber />
+    <Banner />
 
 </>
   )

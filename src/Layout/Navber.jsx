@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './../comp/Container'
 import Flex from './../comp/Flex'
 import Image from '../comp/Image'
-import Logo from '../assets/logo.png'
+import Dacar from '../assets/dacar.png'
 
 import List from '../comp/List'
 import { Button } from '../comp/Button'
@@ -14,7 +14,7 @@ const Navber = () => {
             <Container>
                <Flex className='items-center'>
                 <div className='w-3/12'>
-                    <Image src={Logo} />
+                    <Image src={Dacar} />
                 </div>
                 <div className='w-6/12 '>
                     <ul className='flex gap-x-12 justify-center'>
