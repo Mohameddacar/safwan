@@ -7,6 +7,7 @@ import Image from './comp/Image'
 import ImageBanner from './assets/banner1.png'
 import Navber from './Layout/Navber'
 import Banner from './Layout/Banner'
+import Services from './Layout/Services'
 
 const App = () => {
  
@@ -15,6 +16,7 @@ const App = () => {
     <>
     <Navber />
     <Banner />
+    <Services />
 
 </>
   )
