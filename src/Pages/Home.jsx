@@ -6,9 +6,12 @@ import ProgressBar from './../Layout/ProgressBar'
 import AboutLayout from '../Layout/AboutLayout'
 import ProjectLayout from '../Layout/ProjectLayout'
 import Clients from '../Layout/Clients'
+<<<<<<< HEAD
 import Contact from '../Layout/Contact'
 import Footer from '../Layout/Footer'
 import Blog from './Blog'
+=======
+>>>>>>> 67d1157df4e0185bdb36876f7b350c2bc79e4068
 
 
 const Home = () => {
@@ -21,9 +24,12 @@ const Home = () => {
     <ProgressBar />
     <ProjectLayout />
     <Clients />
+<<<<<<< HEAD
     <Contact />
     <Blog />
     <Footer />
+=======
+>>>>>>> 67d1157df4e0185bdb36876f7b350c2bc79e4068
     
     </>
   )

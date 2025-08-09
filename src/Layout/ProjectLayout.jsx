@@ -26,6 +26,7 @@ const ProjectLayout = () => {
             </Flex>
             <Flex className='justify-between pt-10 pb-[60px]'>
                 <ProjectCard text1='Analytics, UI-Ux ' descr="Creative & Interactive Design Campaign For Felix" para="Designed a user-friendly interface and crafted
+<<<<<<< HEAD
                     engaging visuals to enhance brand experience." read='View Case Study'/>
                 <ProjectCard text1='Mobile App' descr="Engaging Mobile Branding Strategy For Maxwell Coffee" para="Developed a sleek mobile experience with a
                 focus on branding, usability, and flow." read='View Case Study'/>
@@ -35,6 +36,15 @@ const ProjectLayout = () => {
             </Flex>
             <div className='text-center'>
             <Button text='Explore More'/></div>
+=======
+                    engaging visuals to enhance brand experience."/>
+                <ProjectCard text1='Mobile App' descr="Engaging Mobile Branding Strategy For Maxwell Coffee" para="Developed a sleek mobile experience with a
+                focus on branding, usability, and flow."/>
+                <ProjectCard text1='Web Development' descr="Responsive Web & Video Rollout For Carla’s Bakery" para="Built a responsive website with integrated
+                video content to boost online presence."/>
+            </Flex>
+            <div className='text-center'><Button text='Explore More'/></div>
+>>>>>>> 67d1157df4e0185bdb36876f7b350c2bc79e4068
         </Container>
     </section>
   )
