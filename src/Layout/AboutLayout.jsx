@@ -9,7 +9,7 @@ import Heading from '../comp/Heading'
 import Paragraph from '../comp/Paragraph'
 import { Button } from '../comp/Button'
 
-const About = () => {
+const AboutLayout = () => {
   return (
         <section className='px-[80px]'>
             <Container>
@@ -38,4 +38,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutLayout

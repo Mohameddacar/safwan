@@ -2,14 +2,14 @@ import React from 'react'
 import Container from '../comp/Container'
 import Flex from '../comp/Flex'
 import Card from '../comp/Card'
-import Card1 from '../../public/card1.png'
-import Card2 from '../../public/card2.png'
-import Card3 from '../../public/card3.png'
+import Card1 from './../../public/card1.png'
+import Card2 from './../../public/card2.png'
+import Card3 from './../../public/card3.png'
 import SubHeading from '../comp/SubHeading'
 import Heading from '../comp/Heading'
 
 
-const Services = () => {
+const ServicesLayout = () => {
   return (
     <section className='pt-[220px] pb-[120px]'>
         <Container>
@@ -25,4 +25,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default ServicesLayout
